@@ -6,3 +6,7 @@ xcuserdata/
 .DS_Store
 *.ipa
 *.xcarchive
+node_modules/
+web/dist/
+web/test-results/
+web/playwright-report/

@@ -1,4 +1,32 @@
-# HerMorse — adaptation native iOS
+# HerMorse — application web installable et projet iOS
+
+**Pour obtenir une icône sur l’écran d’accueil de l’iPhone sans Mac, utiliser la version web/PWA dans `web/`.** La configuration `netlify.toml` à la racine prépare le déploiement de cette version sur Netlify. Le projet SwiftUI est conservé dans `iOS/` pour la voie native.
+
+## Publier la version web sur Netlify
+
+1. Dans Netlify, choisir **Add new project → Import an existing project → GitHub**.
+2. Sélectionner **9fnkbvjybz-spec/HEMORSE**, branche **main**.
+3. Laisser Netlify lire `netlify.toml`. Les paramètres sont : dossier de base **web**, commande **npm run build**, dossier publié **dist** (relatif à `web`). Aucune variable secrète n’est requise.
+4. Lancer le déploiement et ouvrir l’adresse HTTPS attribuée par Netlify.
+5. Sur l’iPhone, ouvrir cette adresse dans **Safari → Partager → Sur l’écran d’accueil → Ajouter**. Si l’option est proposée, activer **Ouvrir comme app web**.
+6. Ouvrir HerMorse depuis cette icône avec Internet une première fois. Attendre le message **Prêt pour l’entraînement hors connexion** avant de l’utiliser sans réseau.
+
+Dans GitHub Actions, le workflow **Validate HerMorse Web** vérifie cette version ; **Validate HerMorse iOS** concerne le projet natif et reste indépendant du site Netlify. Les changements du site web ne relancent pas le runner macOS. Le détail du fonctionnement et des limites est dans [docs/WEB_PWA.md](docs/WEB_PWA.md).
+
+### Développement web local
+
+Depuis le dossier `web`, avec Node 22 ou ultérieur :
+
+```sh
+npm ci
+npm test
+npm run build
+npm run dev
+```
+
+Pour les tests navigateur, installer Chromium avec `npx playwright install chromium`, puis lancer `npm run test:e2e`. Sur une machine équipée d’un Chromium système, on peut passer son chemin dans `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH`.
+
+## Version native iOS
 
 Projet SwiftUI pour iPhone et iPad **iOS 17 ou ultérieur**, réalisé à partir des sources Android HerMorse v0.4.0 et du firmware fournis par l’utilisateur.
 

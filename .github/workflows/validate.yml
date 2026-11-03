@@ -1,7 +1,17 @@
-name: Validate HerMorse
+name: Validate HerMorse iOS
 on:
   push:
+    paths:
+      - Package.swift
+      - Sources/**
+      - Tests/**
+      - iOS/**
   pull_request:
+    paths:
+      - Package.swift
+      - Sources/**
+      - Tests/**
+      - iOS/**
   workflow_dispatch:
 jobs:
   ios:

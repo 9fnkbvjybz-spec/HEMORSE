@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#142b53">
+  <meta name="description" content="Apprenez le morse à votre rythme avec HerMorse : méthode Koch, écoute et manipulation, même hors connexion après la première ouverture.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="HerMorse">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/icons/icon-180.png">
+  <link rel="icon" type="image/png" href="/icons/icon-192.png">
+  <link rel="stylesheet" href="/src/styles.css">
+  <title>HerMorse · Apprendre le morse</title>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <div id="app"><main class="loading"><h1>HerMorse</h1><p>Votre entraînement au morse se prépare…</p></main></div>
+  <div id="notice" role="status" aria-live="polite" hidden></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <input id="import-file" type="file" accept=".hermorse,.json,application/json" hidden>
+  <noscript>HerMorse a besoin de JavaScript pour les exercices et la lecture audio.</noscript>
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>
