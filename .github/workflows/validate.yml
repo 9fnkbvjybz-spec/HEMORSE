@@ -1,0 +1,14 @@
+name: Validate HerMorse
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  ios:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Core tests
+        run: swift test --jobs 2
+      - name: Simulator build (without signing)
+        run: xcodebuild -project iOS/HerMorse.xcodeproj -scheme HerMorse -configuration Debug -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' -derivedDataPath DerivedData CODE_SIGNING_ALLOWED=NO build

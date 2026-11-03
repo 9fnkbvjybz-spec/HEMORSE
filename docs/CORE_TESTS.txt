@@ -1,0 +1,111 @@
+[0/1] Planning build
+Building for debugging...
+[0/5] Write sources
+[2/5] Write swift-version--742E0F5BDB0CA349.txt
+[4/7] Emitting module HerMorseCore
+[5/7] Compiling HerMorseCore Morse.swift
+[6/9] Compiling HerMorseCore Timing.swift
+[7/10] Compiling HerMorseCore Trophies.swift
+[8/10] Compiling HerMorseCore Training.swift
+[9/11] Wrapping AST for HerMorseCore for debugging
+[11/19] Emitting module HerMorseCoreTests
+[12/19] Compiling HerMorseCoreTests CoreTests.swift
+[13/19] /workspace/HEMORSE/.build/x86_64-unknown-linux-gnu/debug/HerMorseCorePackageDiscoveredTests.derived/all-discovered-tests.swift
+[14/20] Write sources
+[16/22] Compiling HerMorseCorePackageDiscoveredTests HerMorseCoreTests.swift
+[17/22] Emitting module HerMorseCorePackageDiscoveredTests
+[18/23] Compiling HerMorseCorePackageDiscoveredTests all-discovered-tests.swift
+[19/21] Write Objects.LinkFileList
+[20/21] Linking HerMorseCorePackageTests.xctest
+Build complete! (3.42s)
+Test Suite 'All tests' started at 2026-11-03 20:05:23.020
+Test Suite 'debug.xctest' started at 2026-11-03 20:05:23.021
+Test Suite 'KeyerTests' started at 2026-11-03 20:05:23.021
+Test Case 'KeyerTests.testIambicBRemembersOppositeAfterRelease' started at 2026-11-03 20:05:23.021
+Test Case 'KeyerTests.testIambicBRemembersOppositeAfterRelease' passed (0.001 seconds)
+Test Case 'KeyerTests.testMicrophoneDurationDecoderIgnoresNoise' started at 2026-11-03 20:05:23.022
+Test Case 'KeyerTests.testMicrophoneDurationDecoderIgnoresNoise' passed (0.101 seconds)
+Test Case 'KeyerTests.testResetReleasesHeldKeyAndDropsPendingDecode' started at 2026-11-03 20:05:23.123
+Test Case 'KeyerTests.testResetReleasesHeldKeyAndDropsPendingDecode' passed (0.0 seconds)
+Test Case 'KeyerTests.testSimultaneousStraightContactsDoNotReleaseEachOther' started at 2026-11-03 20:05:23.124
+Test Case 'KeyerTests.testSimultaneousStraightContactsDoNotReleaseEachOther' passed (0.0 seconds)
+Test Case 'KeyerTests.testStraightKeyDecodesSOSAndSpace' started at 2026-11-03 20:05:23.124
+Test Case 'KeyerTests.testStraightKeyDecodesSOSAndSpace' passed (0.0 seconds)
+Test Suite 'KeyerTests' passed at 2026-11-03 20:05:23.124
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.103 (0.103) seconds
+Test Suite 'MorseTests' started at 2026-11-03 20:05:23.124
+Test Case 'MorseTests.testAndroidAlphabetAndKochOrder' started at 2026-11-03 20:05:23.124
+Test Case 'MorseTests.testAndroidAlphabetAndKochOrder' passed (0.0 seconds)
+Test Case 'MorseTests.testContentUsesOnlyLessonCharacters' started at 2026-11-03 20:05:23.124
+Test Case 'MorseTests.testContentUsesOnlyLessonCharacters' passed (0.006 seconds)
+Test Case 'MorseTests.testCustomProsignsGenerateAtomicTokens' started at 2026-11-03 20:05:23.130
+Test Case 'MorseTests.testCustomProsignsGenerateAtomicTokens' passed (0.001 seconds)
+Test Case 'MorseTests.testElementDurations' started at 2026-11-03 20:05:23.131
+Test Case 'MorseTests.testElementDurations' passed (0.0 seconds)
+Test Case 'MorseTests.testFarnsworthParisWordDuration' started at 2026-11-03 20:05:23.132
+Test Case 'MorseTests.testFarnsworthParisWordDuration' passed (0.001 seconds)
+Test Case 'MorseTests.testKochLessonPools' started at 2026-11-03 20:05:23.132
+Test Case 'MorseTests.testKochLessonPools' passed (0.0 seconds)
+Test Case 'MorseTests.testProsignPriorityMatchesAndroid' started at 2026-11-03 20:05:23.133
+Test Case 'MorseTests.testProsignPriorityMatchesAndroid' passed (0.0 seconds)
+Test Case 'MorseTests.testTokenizationKeepsProsignsAtomic' started at 2026-11-03 20:05:23.133
+Test Case 'MorseTests.testTokenizationKeepsProsignsAtomic' passed (0.0 seconds)
+Test Suite 'MorseTests' passed at 2026-11-03 20:05:23.133
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.009 (0.009) seconds
+Test Suite 'ProfileTests' started at 2026-11-03 20:05:23.133
+Test Case 'ProfileTests.testAtomicRepositorySaveReloadAndDelete' started at 2026-11-03 20:05:23.133
+Test Case 'ProfileTests.testAtomicRepositorySaveReloadAndDelete' passed (0.006 seconds)
+Test Case 'ProfileTests.testCorruptRepositoryIsNotSilentlyOverwritten' started at 2026-11-03 20:05:23.139
+Test Case 'ProfileTests.testCorruptRepositoryIsNotSilentlyOverwritten' passed (0.001 seconds)
+Test Case 'ProfileTests.testFullAndroidJSONRoundTrip' started at 2026-11-03 20:05:23.140
+Test Case 'ProfileTests.testFullAndroidJSONRoundTrip' passed (0.002 seconds)
+Test Case 'ProfileTests.testImportNameCollisions' started at 2026-11-03 20:05:23.142
+Test Case 'ProfileTests.testImportNameCollisions' passed (0.0 seconds)
+Test Case 'ProfileTests.testImportedRangesAreClamped' started at 2026-11-03 20:05:23.142
+Test Case 'ProfileTests.testImportedRangesAreClamped' passed (0.0 seconds)
+Test Case 'ProfileTests.testInvalidFormatAndFutureVersionRejected' started at 2026-11-03 20:05:23.143
+Test Case 'ProfileTests.testInvalidFormatAndFutureVersionRejected' passed (0.0 seconds)
+Test Case 'ProfileTests.testMalformedCharacterStatisticsRejected' started at 2026-11-03 20:05:23.143
+Test Case 'ProfileTests.testMalformedCharacterStatisticsRejected' passed (0.0 seconds)
+Test Case 'ProfileTests.testMinimalAndroidProfileDefaults' started at 2026-11-03 20:05:23.143
+Test Case 'ProfileTests.testMinimalAndroidProfileDefaults' passed (0.0 seconds)
+Test Suite 'ProfileTests' passed at 2026-11-03 20:05:23.143
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.01 (0.01) seconds
+Test Suite 'ProgressionTests' started at 2026-11-03 20:05:23.143
+Test Case 'ProgressionTests.testCustomModeDoesNotAdvance' started at 2026-11-03 20:05:23.143
+Test Case 'ProgressionTests.testCustomModeDoesNotAdvance' passed (0.0 seconds)
+Test Case 'ProgressionTests.testEditAlignmentHandlesMissingAndExtraCharacters' started at 2026-11-03 20:05:23.144
+Test Case 'ProgressionTests.testEditAlignmentHandlesMissingAndExtraCharacters' passed (0.0 seconds)
+Test Case 'ProgressionTests.testHistoryRemainsBounded' started at 2026-11-03 20:05:23.144
+Test Case 'ProgressionTests.testHistoryRemainsBounded' passed (0.001 seconds)
+Test Case 'ProgressionTests.testNinetyPercentAdvancesOnlySelectedTrack' started at 2026-11-03 20:05:23.145
+Test Case 'ProgressionTests.testNinetyPercentAdvancesOnlySelectedTrack' passed (0.0 seconds)
+Test Case 'ProgressionTests.testPhaseRequiresThreeConsecutiveSuccesses' started at 2026-11-03 20:05:23.145
+Test Case 'ProgressionTests.testPhaseRequiresThreeConsecutiveSuccesses' passed (0.0 seconds)
+Test Case 'ProgressionTests.testSpeedLadderEveryFourLessons' started at 2026-11-03 20:05:23.145
+Test Case 'ProgressionTests.testSpeedLadderEveryFourLessons' passed (0.0 seconds)
+Test Case 'ProgressionTests.testStreakAcrossDaylightSavingChange' started at 2026-11-03 20:05:23.145
+Test Case 'ProgressionTests.testStreakAcrossDaylightSavingChange' passed (0.001 seconds)
+Test Case 'ProgressionTests.testTrophyConditions' started at 2026-11-03 20:05:23.146
+Test Case 'ProgressionTests.testTrophyConditions' passed (0.0 seconds)
+Test Suite 'ProgressionTests' passed at 2026-11-03 20:05:23.146
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'SignalTests' started at 2026-11-03 20:05:23.146
+Test Case 'SignalTests.testAutomaticFrequencyTrackingFindsTone' started at 2026-11-03 20:05:23.146
+Test Case 'SignalTests.testAutomaticFrequencyTrackingFindsTone' passed (0.046 seconds)
+Test Case 'SignalTests.testResamplerIsIndependentOfBufferBoundaries' started at 2026-11-03 20:05:23.193
+Test Case 'SignalTests.testResamplerIsIndependentOfBufferBoundaries' passed (0.001 seconds)
+Test Case 'SignalTests.testSilenceDoesNotProduceCharactersOrSignal' started at 2026-11-03 20:05:23.194
+Test Case 'SignalTests.testSilenceDoesNotProduceCharactersOrSignal' passed (0.046 seconds)
+Test Case 'SignalTests.testSyntheticAudioSOSGoesThroughDetector' started at 2026-11-03 20:05:23.240
+Test Case 'SignalTests.testSyntheticAudioSOSGoesThroughDetector' passed (0.125 seconds)
+Test Suite 'SignalTests' passed at 2026-11-03 20:05:23.365
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.219 (0.219) seconds
+Test Suite 'debug.xctest' passed at 2026-11-03 20:05:23.365
+	 Executed 33 tests, with 0 failures (0 unexpected) in 0.343 (0.343) seconds
+Test Suite 'All tests' passed at 2026-11-03 20:05:23.365
+	 Executed 33 tests, with 0 failures (0 unexpected) in 0.343 (0.343) seconds
+◇ Test run started.
+↳ Testing Library Version: 6.1.2 (d6b70f9ef9eb207)
+↳ Target Platform: x86_64-unknown-linux-gnu
+✔ Test run with 0 tests passed after 0.001 seconds.
